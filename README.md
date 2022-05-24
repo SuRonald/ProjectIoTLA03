@@ -25,3 +25,7 @@ Code ini digunakan untuk megirimkan data yang didapat dari Core Temp ke [Mosquit
 **Percobaan Pengiriman Data Menggunakan ThingsBoard**
 
 Code ini digunakan untuk megirimkan data yang didapat dari Core Temp ke [ThingsBoard](https://thingsboard.io/) menggunakan koneksi MQTT.
+
+### [finalPublishData.py](https://github.com/SuRonald/ProjectIoTLA03/blob/main/finalPublishData.py)
+
+Code ini digunakan untuk megirimkan data yang didapat dari Core Temp ke [ThingsBoard](https://thingsboard.io/) atau [Mosquitto](https://mosquitto.org/) (Dapat dipilih salah satu) menggunakan koneksi MQTT. Yang dimana akan berjalan terus menurus selama data yang didapat tidak habis dengan jeda pengiriman setiap 5 detik.
