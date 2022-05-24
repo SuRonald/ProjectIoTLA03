@@ -1,8 +1,6 @@
-from fileinput import filename
 import shutil
 import csv
 from time import sleep
-import time
 import paho.mqtt.publish as publish
 
 count = 9
